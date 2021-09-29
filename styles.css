@@ -1,0 +1,63 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: .9;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#logo {
+    height: 50px;
+}
+
+.site-header {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+.right-header-el {
+    color: seashell;
+    margin: 5px;
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 720px;
+    background-image: url('images/img-mission-background.webp');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+
+.mission-header {
+    width: 1280px;
+    text-align: center;
+    background-color: black;
+}
+
+.featured-tea {
+    text-align: center;
+}
+
+.featured-tea-card {
+    width: 300px;
+    height: 200px;
+}
+
+.featured-tea-content {
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
